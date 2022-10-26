@@ -6,6 +6,7 @@
   --main-background-color: #FFFFFF;
   --second-background-color: #F5F4FA;
   --third-background-color: #2F303A;
+  --main-icon-color: #AFB1B8;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -120,6 +121,11 @@ color: var(--main-accent-color);
 .section-hero {
   height: 600px;
   background-color: #2F303A;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
+  ), url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   display: flex;
@@ -251,6 +257,73 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
 display: block;
+margin-bottom: 30px;
+}
+.webstudio-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.webstudio-soc-item {
+  width: 44px;
+  height: 44px;
+}
+.webstudio-soc-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-background-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.webstudio-soc-icon {
+  fill: var(--main-icon-color);
+}
+.webstudio-soc-link:focus, .webstudio-soc-link:hover {
+  background-color: var(--main-accent-color); 
+}
+.webstudio-soc-link:focus .webstudio-soc-icon, .webstudio-soc-link:hover .webstudio-soc-icon {
+fill: var(--main-background-color);
+}
+/* CLIENT */
+.section-client {
+}
+.client-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-title-color);
+margin-bottom: 50px;
+}
+.client-list {
+  display: flex;
+  gap: 30px;
+
+}
+.client-item {
+  width: calc((100% - 150px) / 6);
+  height: 92px;
+}
+.client-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--main-icon-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client-icon{
+  fill: var(--main-icon-color);
+}
+.client-link:focus, .client-link:hover {
+  border-color: var(--main-accent-color);
+}
+.client-link:focus .client-icon, .client-link:hover .client-icon {
+  fill: var(--main-accent-color);
 }
 /* FOOTER */
 .footer {
@@ -308,6 +381,50 @@ color: rgba(255, 255, 255, 0.6);
 .footer-tel:focus, 
 .footer-tel:hover {color: var(--main-accent-color);}
 
+.footer-soc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 70px;
+}
+.footer-soc-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-background-color);
+margin-bottom: 20px;
+
+}
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-soc-item {
+  width: 44px;
+  height: 44px;
+}
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-soc-icon {
+  fill: var(--main-background-color);
+}
+.footer-soc-link:focus, .footer-soc-link:hover {
+  background-color: var(--main-accent-color); 
+}
+.footer-soc-link:focus .footer-soc-icon, .footer-soc-link:hover .footer-soc-icon {
+fill: var(--main-background-color);
+}
 
 /* PORTFOLIO */
 .section-portfolio {
