@@ -24,8 +24,8 @@
     <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
-          <a href="./index.html" class="link"
-            ><p class="logo-1">Web<span class="logo-2">Studio</span></p></a
+          <a href="./index.html" class="link">
+            <p class="logo-1">Web<span class="logo-2">Studio</span></p></a
           >
           <ul class="site-nav list">
             <li>
@@ -38,14 +38,22 @@
           </ul>
         </nav>
         <ul class="contact-header list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="contact-header-link link"
+          <li class="contact-header-item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="contact-header-link link"
+            >
+              <svg class="icon-mail" widht="16" height="12">
+                <use href="./images/icons.svg#icon-mail"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+380961111111" class="contact-header-link link"
-              >+38 096 111 11 11</a
+          <li class="contact-header-item">
+            <a href="tel:+380961111111" class="contact-header-link link">
+              <svg class="icon-tel" widht="10" height="16">
+                <use href="./images/icons.svg#icon-tel"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -61,10 +69,33 @@
           </h1>
           <button type="button" class="hero-button">Замовити послугу</button>
         </div>
+        <!-- FEATURES-->>
       </section>
       <section class="section-feature section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
+          <ul class="feature-icon-list list">
+            <li class="feature-icon-item">
+              <svg class="feature-icon" widht="70" height="70">
+                <use href="./images/icons.svg#icon-antenna"></use>
+              </svg>
+            </li>
+            <li class="feature-icon-item">
+              <svg class="feature-icon" widht="70" height="70">
+                <use href="./images/icons.svg#icon-clock"></use>
+              </svg>
+            </li>
+            <li class="feature-icon-item">
+              <svg class="feature-icon" widht="70" height="70">
+                <use href="./images/icons.svg#icon-diagram"></use>
+              </svg>
+            </li>
+            <li class="feature-icon-item">
+              <svg class="feature-icon" widht="70" height="70">
+                <use href="./images/icons.svg#icon-astronaut"></use>
+              </svg>
+            </li>
+          </ul>
           <ul class="feature-list list">
             <li class="feature-item">
               <h3 class="feature-title">Увага до деталей</h3>
