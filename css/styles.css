@@ -58,6 +58,9 @@ body {
 }
 
 /* logo */
+.logo-link {
+  margin-right: 93px;
+}
 .logo-1 {
   font-family: "Raleway";
   font-weight: 700;
@@ -73,7 +76,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
-  margin-right: 93px;
+
 }
 /* HEADER */
 .header {
@@ -113,12 +116,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-.icon-mail {
+.icon-envelope {
   fill: currentColor;
+  margin-right: 10px;
+
 
 }
-.icon-tel {
+.icon-smartphone {
   fill: currentColor;
+  margin-right: 10px;
 }
 .nav-link:focus,
 .nav-link:hover {
@@ -194,13 +200,8 @@ body {
 }
 
 /* FEATURE */
-.feature-icon-list {
-  display: flex;
-  gap: 30px;
-}
-
 .feature-icon-item {
-  width: calc((100% - 90px) / 4);
+  width: 270px;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -296,7 +297,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 .webstudio-soc-list {
   display: flex;
