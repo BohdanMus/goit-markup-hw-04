@@ -76,7 +76,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
-
 }
 /* HEADER */
 .header {
@@ -119,8 +118,6 @@ body {
 .icon-envelope {
   fill: currentColor;
   margin-right: 10px;
-
-
 }
 .icon-smartphone {
   fill: currentColor;
@@ -515,8 +512,7 @@ body {
   display: block;
   border: 1px solid #eeeeee;
 }
-.portfolio-link:hover .portfolio-wrap,
-.portfolio-link:focus .portfolio-wrap{
+.portfolio-link-wrap:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
